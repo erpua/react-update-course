@@ -2,8 +2,8 @@
 
 # Terminal / Power Shell
 
-- Step 1: Step 1: First, you have to need to open the command prompt and run this command.
-set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+- Step 1: Step 1: First, you have to need to open the command prompt and run this command. 
+<b> set-ExecutionPolicy RemoteSigned -Scope CurrentUser </b>
 
 When you run this command, you can see that your system has set all policies for the current user as remotely. It will take few seconds to complete this process.
 
@@ -11,6 +11,7 @@ When you run this command, you can see that your system has set all policies for
 Get-ExecutionPolicy
 
 When you have run this command your system has a show “RemoteSigned”. If you have received this message, then your problem will be solved. Now you have to go to the next step to view the list of policies which policy has been updated by the last commands.
+
 - Step 3: To view their policy, you need to run this command in your command prompt:
 Get-ExecutionPolicy -list
 
@@ -22,6 +23,6 @@ Get-ExecutionPolicy -list
 # Repo installations
 
 - npx create-react-app@5 01-install
-  cd 01-install
-  npm start
+- cd 01-install
+- npm start
 
